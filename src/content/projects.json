@@ -1,0 +1,49 @@
+[
+    {
+        "title": "EBSCO Mobile App",
+        "description": "EBSCO Information Services provides database access and search tools to the academic and research audience. In early 2020 my team at EBSCO launched EBSCO mobile, a companion app to supplement EBSCO’s desktop search experience and provide tools such as searching, bookmarking and downloading scholarly articles and e-books on the go. ",
+        "stack": [
+            {
+                "name": "React Native",
+                "iconName": ""
+            },
+            {
+                "name": "redux"
+            }
+        ],
+        "features": [
+            "Internationalization",
+            "Accessibility"
+        ]
+    },
+    {
+        "title": "Get Spiffy Technician App",
+        "description": "Get Spiffy is an on-demand car-care service specializing in car washing, oil change and fleet management. While I worked at Get Spiffy I took on a solo project to re-build the technician app in React Native. Spiffy technicians used the app throughout their work days to manage schedules, take photos, view checklists for their services, and communicate with support staff and customers.",
+        "stack": [
+            {
+                "name": "React Native",
+                "iconName": ""
+            }
+        ],
+        "features": [
+            "Offline-first functionality",
+            "AWS s3 photo upload",
+            "SmartCar integration to locate and unlock vehicles with digital key capabilities",
+            "Interactive maps"
+        ]
+    },
+    {
+        "title": "Get Spiffy Fleet Portal",
+        "description": "When Spiffy started ramping up their fleet business it became necessary to add a different type of user interface for larger customers to do things like view vehicle fleet branches and vehicles at a glance, order bulk services and create reports. This project also included personalized branding for several of Spiffy’s larger fleet partners.",
+        "features": [
+            "Responsive web app optimized to run on mobile browsers"
+        ]
+    },
+    {
+        "title": "Baturra Blog",
+        "description": "A personal project, Baturra is a bilingual blog CMS I am currently working on to support my aunt who leads a small middle school and hopes to expand to offering bilingual historical tours.",
+        "features": [
+            "Firebase authentication and database"
+        ]
+    }
+]
