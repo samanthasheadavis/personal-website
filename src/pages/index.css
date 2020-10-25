@@ -1,0 +1,42 @@
+.container {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.headshotContainer {
+  display: flex;
+  flex-direction: row;
+}
+.body {
+  flex: 1;
+}
+.secondaryBody {
+  padding-left: 1.0875rem;
+  padding-right: 1.0875rem;
+}
+.introText {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+@media only screen and (max-width: 1000px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .container {
+    padding-left: 1.0875rem;
+    padding-right: 1.0875rem;
+  }
+  .headshotContainer {
+    flex-direction: column;
+  }
+  .secondaryBody {
+    padding-top: 1.45rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .introText {
+    padding-bottom: 0;
+  }
+}
