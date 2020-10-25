@@ -1,7 +1,7 @@
 [
     {
         "title": "EBSCO Mobile App",
-        "description": "EBSCO Information Services provides database access and search tools to the academic and research audience. In early 2020 my team at EBSCO launched EBSCO mobile, a companion app to supplement EBSCO’s desktop search experience and provide tools such as searching, bookmarking and downloading scholarly articles and e-books on the go. ",
+        "description": "EBSCO Information Services provides database access and search tools to the academic and research audience. In early 2020 my team at Ebsco launched EBSCO mobile, a companion app to supplement Ebsco’s desktop search experience and provide tools such as searching, bookmarking and downloading scholarly articles and e-books on the go. ",
         "stack": [
             {
                 "name": "React Native",
