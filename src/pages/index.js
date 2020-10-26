@@ -13,10 +13,15 @@ const IndexPage = () => (
       <div className="body introText">
         <p>Hi, I'm Sam.</p>
         <p>
-          I'm a full stack software engineer, but I didn't start out that way.
+          I'm a{" "}
+          <span style={{ fontSize: `1.75rem` }}>
+            full stack software engineer,
+          </span>{" "}
+          but I didn't start out that way.
         </p>
       </div>
       <div className="headshotContainer">
+        <div className="bodyColorBlock" />
         <div style={{ flex: 1 }}>
           <Headshot />
         </div>

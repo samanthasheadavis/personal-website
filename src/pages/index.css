@@ -17,6 +17,14 @@
   text-align: center;
   padding-bottom: 2rem;
 }
+.bodyColorBlock {
+  top: 0px;
+  bottom: 0px;
+  position: fixed;
+  width: 10rem;
+  background-color: rgb(169, 54, 30, 0.5);
+  z-index: -1;
+}
 @media only screen and (max-width: 1000px) {
   .container {
     padding-left: 3rem;
