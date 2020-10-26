@@ -7,11 +7,14 @@ const ListItem = ({ title, description, features }) => {
       <h3>{title}</h3>
       <p>{description}</p>
       {features && (
-        <ul>
-          {features.map((feature) => (
-            <li>{feature}</li>
-          ))}
-        </ul>
+        <>
+          <h4>Features:</h4>
+          <ul>
+            {features.map((feature) => (
+              <li>{feature}</li>
+            ))}
+          </ul>
+        </>
       )}
     </div>
   );

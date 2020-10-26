@@ -5,13 +5,18 @@ import "./style.css";
 
 const Header = ({ siteTitle }) => (
   <header className="headerContainer">
-    <Link className="headerLink" to="/projects/">
-      Projects
-    </Link>{" "}
-    <br />
-    <Link className="headerLink" to="/about/">
-      About
+    <Link className="headerLink" to="/">
+      Home
     </Link>
+    <div className="rightLinksContainer">
+      <Link className="headerLink" to="/projects/">
+        Projects
+      </Link>{" "}
+      <br />
+      <Link className="headerLink" to="/about/">
+        About
+      </Link>
+    </div>
   </header>
 );
 

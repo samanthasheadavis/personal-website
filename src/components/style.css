@@ -591,10 +591,11 @@ pre tt:after {
   content: "";
 }
 .headerContainer {
+  z-index: -2;
   margin: 0 auto;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   padding: 1rem;
   background: linear-gradient(
     0deg,
@@ -603,12 +604,16 @@ pre tt:after {
   );
 }
 .headerLink {
-  padding-right: 0.5rem;
   text-decoration: none;
   color: hsla(0, 0%, 0%, 0.8);
 }
 .headerLink:first-of-type {
   padding-right: 1rem;
+}
+.rightLinksContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 @media only screen and (max-width: 480px) {
   html {
