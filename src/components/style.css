@@ -590,6 +590,26 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+.headerContainer {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 1rem;
+  background: linear-gradient(
+    0deg,
+    rgba(132, 124, 124, 0.5),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.headerLink {
+  padding-right: 0.5rem;
+  text-decoration: none;
+  color: hsla(0, 0%, 0%, 0.8);
+}
+.headerLink:first-of-type {
+  padding-right: 1rem;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

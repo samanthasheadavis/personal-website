@@ -1,33 +1,26 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
+import "./style.css";
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'flex-end'
-      }}
-    >
-      <Link style={{marginRight: 10}} to="/projects/">Projects</Link> <br />
-      <Link style={{marginRight: 10}} to="/about/">About</Link>
-    </div>
+  <header className="headerContainer">
+    <Link className="headerLink" to="/projects/">
+      Projects
+    </Link>{" "}
+    <br />
+    <Link className="headerLink" to="/about/">
+      About
+    </Link>
   </header>
-)
+);
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
-}
+};
 
 Header.defaultProps = {
   siteTitle: ``,
-}
+};
 
-export default Header
+export default Header;
