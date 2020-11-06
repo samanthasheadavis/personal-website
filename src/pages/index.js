@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import Headshot from "../components/headshot";
@@ -11,13 +10,13 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="container">
       <div className="body introText">
-        <p>Hi, I'm Sam.</p>
+        <p>Hi, I&apos;m Sam.</p>
         <p>
-          I'm a{" "}
+          I&apos;m a{" "}
           <span style={{ fontSize: `1.75rem` }}>
             full stack software engineer,
           </span>{" "}
-          but I didn't start out that way.
+          but I didn&apos;t start out that way.
         </p>
       </div>
       <div className="headshotContainer">
@@ -27,9 +26,10 @@ const IndexPage = () => (
         </div>
         <div className="body secondaryBody">
           <p>
-            I'm passionate about learning and getting people the information
-            they need. That's why I decided to attend a three month bootcamp and
-            change my career from marketing and SEO to software development.
+            I&apos;m passionate about learning and getting people the
+            information they need. That&apos;s why I decided to attend a three
+            month bootcamp and change my career from marketing and SEO to
+            software development.
           </p>
           <p>
             Since then my experiences have ranged from building greenfield

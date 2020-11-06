@@ -11,7 +11,7 @@ const ListItem = ({ title, description, features }) => {
           <h4>Features:</h4>
           <ul>
             {features.map((feature) => (
-              <li>{feature}</li>
+              <li key={feature}>{feature}</li>
             ))}
           </ul>
         </>
@@ -20,10 +20,14 @@ const ListItem = ({ title, description, features }) => {
   );
 };
 
+ListItem.defaultProps = {
+  features: null
+};
+
 ListItem.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
-  features: PropTypes.array,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  features: PropTypes.arrayOf(PropTypes.string)
 };
 
 export default ListItem;

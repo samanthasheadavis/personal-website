@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import projectsJSON from "../content/projects.json";
 import "./style.css";
 
@@ -14,8 +13,13 @@ const Projects = () => (
       <div className="bodyColorBlock" />
       <div className="mainText">
         <h1>Projects</h1>
-        {projectsJSON.map((project) => (
-          <ListItem {...project} />
+        {projectsJSON.map(({ title, description, features }) => (
+          <ListItem
+            key={title}
+            title={title}
+            description={description}
+            features={features}
+          />
         ))}
       </div>
     </div>
